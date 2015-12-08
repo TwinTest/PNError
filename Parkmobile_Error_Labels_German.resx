@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettingsNoChangeRights" xml:space="preserve">
+    <value>Hinweis: Diese Einstellungen können nur vom Kontoinhaber geändert werden.</value>
+  </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>Hinweis: Dieses Benutzerkonto wurde  vorübergehend gesperrt.  Bitte kontaktieren Sie den Kundenservice unter {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedActivationRequired" xml:space="preserve">
+    <value>Um Parkmobile nutzen zu können, müssen erst Ihre E-Mail-Adresse verifiziert werden.</value>
+  </data>
+  <data name="AccountSuspendedCreditcardExpired" xml:space="preserve">
+    <value>Hinweis: Dieses Benutzerkonto wurde vorübergehend gesperrt, da die angegebene Kreditkarte abgelaufen ist. Bitte fügen Sie eine gültige Zahlungsmethode hinzu.</value>
+  </data>
+  <data name="AccountSuspendedGeneral" xml:space="preserve">
+    <value>Hinweis: Dieses Benutzerkonto wurde  vorübergehend gesperrt.  Bitte kontaktieren Sie den Kundenservice unter {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedPaymentFailed" xml:space="preserve">
+    <value>Hinweis: Dieses Benutzerkonto wurde  vorübergehend gesperrt.  Bitte kontaktieren Sie den Kundenservice unter {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedPaymentMethodNotFound" xml:space="preserve">
+    <value>Hinweis: Dieses Benutzerkonto wurde vorübergehend gesperrt, da keine gültige Zahlungsmethode vorliegt. Bitte fügen Sie eine gültige Zahlungsmethode hinzu.  </value>
+  </data>
+  <data name="ActivateTransactionFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="AddressValidation" xml:space="preserve">
+    <value>Adresse nicht überprüft werden konnte, füllen Adresse manuell</value>
+  </data>
+  <data name="BankruptMessage" xml:space="preserve">
+    <value>Leider kann die Anmeldung nicht wegen der aktuellen Finanzstatus fortgesetzt werden. Wenn diese Informationen falsch sind, wenden Sie sich bitte an den Helpdesk, die weiter helfen können</value>
+  </data>
+  <data name="BoatNameOrNumberRequired" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BrowserVersionError" xml:space="preserve">
+    <value>Hinweis: Die verwendete  Browser-Version ist veraltet und wird von uns nicht unterstützt. Bitte aktualisieren Sie ihren Browser auf eine neuere  Version.</value>
+  </data>
+  <data name="CCPaymentNotSupported" xml:space="preserve">
+    <value>Kreditkartenzahlung nicht von Lieferanten unterstützt</value>
+  </data>
+  <data name="ClientTypeValidation" xml:space="preserve">
+    <value>Sind Sie mit Parkmobile privat oder für Ihr Unternehmen?</value>
+  </data>
+  <data name="CompanyRegistrationNumberLengthIncorrectMessage" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="CountryNotSupported" xml:space="preserve">
+    <value>Fragt land wird nicht unterstützt</value>
+  </data>
+  <data name="CreateUserInfoUserNotAllowed" xml:space="preserve">
+    <value>Hinweis: Nur der Inhaber dieses Benutzerkontos kann weitere Mitbenutzer hinzufügen.</value>
+  </data>
+  <data name="CreateUserNoClientGiven" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="CreateUserNoDisplayNameGiven" xml:space="preserve">
+    <value>Hinweis: Geben Sie einen Namen an, unter dem der neue Mitbenutzer angezeigt werden soll.</value>
+  </data>
+  <data name="CreateUserNoEmailGiven" xml:space="preserve">
+    <value>Hinweis: Geben Sie die E-Mail-Adresse des neue Mitbenutzers an.</value>
+  </data>
+  <data name="CreateUserNoMobilePhoneGiven" xml:space="preserve">
+    <value>Hinweis: Geben Sie die Mobiltelefonnummer des neuen Mitbenutzers an.</value>
+  </data>
+  <data name="CreateUserUserAlreadyExists" xml:space="preserve">
+    <value>Hinweis: Der Benutzer kann nicht hinzugefügt werden, da die Mobiltelefonnummer oder E-Mail-Adresse bereits für ein anderes Benutzerkonto verwendet wird.</value>
+  </data>
+  <data name="CredentialAlreadyMerged" xml:space="preserve">
+    <value>Hinweis: Die Konten des Benutzers {UserId} sind bereits verbunden.</value>
+  </data>
+  <data name="CredentialNotFound" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="CreditCardRegistrationError" xml:space="preserve">
+    <value>Hinweis: Keine gültige Zahlungsmethode. Bitte fügen Sie eine gültige Zahlungsmethode hinzu, um den Service nutzen zu können.</value>
+  </data>
+  <data name="DeletePrimaryUserError" xml:space="preserve">
+    <value>Hauptbenutzer kann nicht entfernt werden</value>
+  </data>
+  <data name="DeleteUserAuthenticationError" xml:space="preserve">
+    <value>Hinweis: Nur der Kontoinhaber kann dieses Benutzerkonto löschen.</value>
+  </data>
+  <data name="DeleteUserParkingActionActivatedError" xml:space="preserve">
+    <value>Hinweis: Benutzer kann nicht gelöscht werden. Für diesen Benutzer läuft ein aktiver Parkvorgang.</value>
+  </data>
+  <data name="DeleteVehicleErrorActiveParkingAction" xml:space="preserve">
+    <value>Hinweis: Fahrzeug kann nicht gelöscht werden. Für  dieses Fahrzeug läuft  ein aktiver Parkvorgang.</value>
+  </data>
+  <data name="DeleteVehicleErrorLastOne" xml:space="preserve">
+    <value>Hinweis: Sie können dieses Fahrzeug nicht löschen, da mindestens ein Kennzeichen in dem Benutzerkonto registriert sein muss.</value>
+  </data>
+  <data name="DeleteVehicleErrorNoDefault" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="DiscountCodeIncorrect" xml:space="preserve">
+    <value>Hinweis: Der eingegebene Aktionscode ist ungültig.</value>
+  </data>
+  <data name="DuplicateMobile" xml:space="preserve">
+    <value>Hinweis: Sie können sich nicht mit dieser Mobiltelefonnummer registrieren, da diese bereits für ein anderes Benutzerkonto verwendet wird.</value>
+  </data>
+  <data name="EniIsOnBlackListError" xml:space="preserve">
+    <value>ENI is unzulässig!</value>
+  </data>
+  <data name="EniLengthIncorrectMessage" xml:space="preserve">
+    <value>Erforderliche Länge ist 7 oder 8 Zeichen</value>
+  </data>
+  <data name="FirstNameLengthIncorrectMessage" xml:space="preserve">
+    <value>Hinweis: Der Vorname muss mindestens 2 Zeichen umfassen.</value>
+  </data>
+  <data name="GarageOfflineFriendlyMessage" xml:space="preserve">
+    <value>Es hat sich ein Fehler ergeben. Momentan ist es nicht möglich in dieser Garage zu parken. Für Hilfe rufen sie folgende Nummer 0900 666 5 666</value>
+  </data>
+  <data name="GeneralErrorTitle" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen. Bitte versuchen Sie es erneut oder wenden Sie sich an unseren Kundendienst.</value>
+  </data>
+  <data name="GetGarageInfoFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingInvoiceHistoryFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingInvoicePDFFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingParkingActionHistoryFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingParkingActionSessionsFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingTransactionHistoryFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GetUserInfoUserNotAllowed" xml:space="preserve">
+    <value>Hinweis: Sie haben keinen Zugriff auf dieses Benutzerprofil.</value>
+  </data>
+  <data name="IbanIsOnBlackListError" xml:space="preserve">
+    <value>Hinweis: Die angegebene IBAN ist nicht erlaubt.</value>
+  </data>
+  <data name="IdentificationNotSupported" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectDirectDebit" xml:space="preserve">
+    <value>Falsche Direct Debit Gewinne beantragt</value>
+  </data>
+  <data name="IncorrectMembershipType" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectSupplier" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectTransactionId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectTransactionNote" xml:space="preserve">
+    <value>Hinweis: Bitte geben Sie eine gültige Notiz ein.</value>
+  </data>
+  <data name="IncorrectTransactionType" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrecUserType" xml:space="preserve">
+    <value>Falsche Benutzertyp-ID angefordert</value>
+  </data>
+  <data name="InvoiceBelongsToDifferentCustomer" xml:space="preserve">
+    <value>Hinweis: Sie haben keinen Zugriff auf diese Rechnung.</value>
+  </data>
+  <data name="LoginFailedMessage" xml:space="preserve">
+    <value>Hinweis: Es konnte kein Benutzerkonto mit diesen Anmeldedaten in unserem System gefunden werden.</value>
+  </data>
+  <data name="MaxAllowedVrn" xml:space="preserve">
+    <value>Hinweis: Für Ihren Tarif wurde die maximale Anzahl an Fahrzeugen überschritten.</value>
+  </data>
+  <data name="MaxUsersExceeded" xml:space="preserve">
+    <value>Hinweis: Für Ihren Tarif wurde  die maximale Anzahl an Benutzern überschritten. </value>
+  </data>
+  <data name="MembershipSwapMessage" xml:space="preserve">
+    <value>Ihre Service-Plan nicht geändert werden konnte, wenden Sie sich bitte helpdesk</value>
+  </data>
+  <data name="MergeFailed" xml:space="preserve">
+    <value>Fehlermeldung:  Die Konten wurden aufgrund eines technischen Fehlers nicht verbunden werden. Der Kundenservice wird automatisch informiert und kümmert sich umgehend darum.</value>
+  </data>
+  <data name="MergeInviteFailNoEmail" xml:space="preserve">
+    <value>Hinweis: Ihre Konten konnten nicht verbunden werden, da für ein Konto keine gültige E-Mail-Adresse vorliegt.</value>
+  </data>
+  <data name="MissingAddressDetails" xml:space="preserve">
+    <value>Hinweis: Die Zugangskarte kann nicht versendet werden, da keine vollständige Adresse angegeben wurde.</value>
+  </data>
+  <data name="MissingParkingActionId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingStopTime" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingUserId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingVehicleDocumentId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingVehicleId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MobileLengthIncorrectMessage" xml:space="preserve">
+    <value>Hinweis: Geben Sie eine Mobiltelefonnummer mit mindestens 9 und höchstens 20 Ziffern an.</value>
+  </data>
+  <data name="MultipleAddresses" xml:space="preserve">
+    <value>Mehrere Adressen gefunden, bitte wählen</value>
+  </data>
+  <data name="NoActiveParkingActionForGarage" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="NoIdentificationsFound" xml:space="preserve">
+    <value>Hinweis: Keine Zugangskarten vorhanden.</value>
+  </data>
+  <data name="NoInvoicesFound" xml:space="preserve">
+    <value>Hinweis: Keine Rechnungen vorhanden.</value>
+  </data>
+  <data name="NoServicePlanFound" xml:space="preserve">
+    <value>Kein zeichnung für bestimmten Benutzer gefunden.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NoSessionsFound" xml:space="preserve">
+    <value>No parking transactions found.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NotModified" xml:space="preserve">
+    <value>Not Modified</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NoUserWithEmailFound" xml:space="preserve">
+    <value>Hinweis: Es wurde kein Benutzer mit der angegebenen E-Mail-Adresse gefunden.</value>
+  </data>
+  <data name="NoVehicleFoundForId" xml:space="preserve">
+    <value>No vehicle found for id {0}</value>
+  </data>
+  <data name="OpenGarageDoor" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="OrderParkingCardError" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="OrderParkingCardFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>The page you requested could not be found</value>
+  </data>
+  <data name="ParkingActionNotFoundForUser" xml:space="preserve">
+    <value>Hinnweis: Es wurde kein aktiver Parkvorgang gefunden.</value>
+  </data>
+  <data name="PasswordCompareMessage" xml:space="preserve">
+    <value>Hinweis: Passwörter stimmen nicht überein.</value>
+  </data>
+  <data name="PasswordLengthMessage" xml:space="preserve">
+    <value>Hinweis: Ihr Passwort muss mindestens 6 Zeichen enthalten.</value>
+  </data>
+  <data name="PaymentDataNotFound" xml:space="preserve">
+    <value>Hinweis: Es wurde keine Zahlungsmethode hinterlegt.</value>
+  </data>
+  <data name="PaymentDataWrongAccount" xml:space="preserve">
+    <value>Hinweis: Die Zahlungsdetails können nur vom Inhaber dieses Benutzerkontos eingesehen werden.</value>
+  </data>
+  <data name="RequiredParametersInvalid" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="RequiredParametersMissing" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="RetrieveParkingCardStatusFailed" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ServicePlanChangeMaxUsersExceeded" xml:space="preserve">
+    <value>Hinweis: Mit der aktuellen Benutzeranzahl ist der Paketwechsel nicht möglich, da die maximale Benutzeranzahl für das neue Paket überschritten wird. </value>
+  </data>
+  <data name="ServicePlanChangeMaxVehiclesExceeded" xml:space="preserve">
+    <value>Hinweis: Mit der aktuellen Fahrzeuganzahl ist der Paketwechsel nicht möglich, da die maximale Anzahl an Fahrzeugen für das neue Paket überschritten wird. </value>
+  </data>
+  <data name="StartParkingCardRequired" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingConfirmFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="StartParkingCvcIncorrect" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingCvcIncorrectMaxAttempts" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingCvcNotProvided" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingExtendFailed" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingExtendNotAllowed" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingInsufficientFunds" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingMaxDuration" xml:space="preserve">
+    <value>Hinweis: Der Parkvorgang kann nicht verlängert werden. Die Höchstparkdauer dieser Zone wurde erreicht.</value>
+  </data>
+  <data name="StartParkingNoPaidParking" xml:space="preserve">
+    <value>Hinweis: Der Startzeitpunkt des Parkvorgangs muss vor der eingestellten Endzeit liegen.</value>
+  </data>
+  <data name="StartParkingNoReturn" xml:space="preserve">
+    <value>Es ist nicht möglich, einen Parkvorgang zu starten. Schauen Sie den Parkautomaten für weiteren Informationen an.</value>
+  </data>
+  <data name="StartParkingNotAllowedOnZone" xml:space="preserve">
+    <value>Hinweis: Zurzeit ist das Parken in dieser Zone nicht gestattet.</value>
+  </data>
+  <data name="StartParkingPaymentError" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="StartParkingPriceInformationError" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="StartParkingVrnAlreadyActivated" xml:space="preserve">
+    <value>Hinweis: Der Parkvorgang kann nicht gestartet werden, da für das registrierte Kennzeichen bereits ein aktiver Parkvorgang läuft.</value>
+  </data>
+  <data name="StartTimeMustBeLessThanEndTime" xml:space="preserve">
+    <value>Hinweis: Der Startzeitpunkt des Parkvorgangs muss vor der eingestellten Endzeit liegen.</value>
+  </data>
+  <data name="StopParkingAlreadyStopped" xml:space="preserve">
+    <value>Hinweis: Der Parkvorgang wurde bereits beendet.</value>
+  </data>
+  <data name="StopParkingFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="StopParkingNotAllowedForZone" xml:space="preserve">
+    <value>Hinweis: Parkvorgang kann nicht vorzeitig beendet werden.</value>
+  </data>
+  <data name="StopParkingStopTimeNotProvided" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="StopParkingStopTimeOutOfRange" xml:space="preserve">
+    <value>Hinweis: Die gewünschte Parkdauer kann nicht aktiviert werden, da die Höchstparkzeit für diesen Parkvorgang überschritten wurde. Bitte wählen Sie eine frühere Endzeit.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="StopParkingUserNotAllowed" xml:space="preserve">
+    <value>Hinweis: Parkvorgänge anderer Benutzer können von Ihnen nicht beendet werden.</value>
+  </data>
+  <data name="TokenRegistrationError" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten, während der Bearbeitung Ihrer Zahlung Details</value>
+  </data>
+  <data name="TooManyUsersFound" xml:space="preserve">
+    <value>Hinweis: Die angegebene E-Mail-Adresse wird von mehreren Konten genutzt.</value>
+  </data>
+  <data name="TransactionNotFound" xml:space="preserve">
+    <value>Angeforderte Transaktion nicht gefundenn</value>
+  </data>
+  <data name="UpdateParkingFailed" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="UpdateUserNotAllowed" xml:space="preserve">
+    <value>User not allowed</value>
+  </data>
+  <data name="UpdateUserNotFound" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="UpdateVehicleErrorActiveParkingAction" xml:space="preserve">
+    <value>Hinweis: Sie können das gewünschte Fahrzeug nicht bearbeiten, da es momentan für einen aktiven Parkvorgang genutzt wird.</value>
+  </data>
+  <data name="UserIdentificationAlreadyExists" xml:space="preserve">
+    <value>Hinweis: Sie verfügen bereits über eine {SupplierName} Zugangskarte.</value>
+  </data>
+  <data name="UserNameChangeMessage" xml:space="preserve">
+    <value>Hinweis: Es konnte kein Konto mit dieser Moblitelefonnummer oder Benutzername in unserem System gefunden werden.</value>
+  </data>
+  <data name="UsersShouldHaveDifferentClientTypes" xml:space="preserve">
+    <value>Hinweis: Sie können nur Privat- und Geschäftskonton miteinander verbinden.</value>
+  </data>
+  <data name="ValidationEmail" xml:space="preserve">
+    <value>Hinweis: Ungültige E-Mail-Adresse.</value>
+  </data>
+  <data name="ValidationEmailNotUnique" xml:space="preserve">
+    <value>Hinweis: Diese E-Mail-Adresse ist bereits für ein anderes Benutzerkonto registriert.</value>
+  </data>
+  <data name="ValidationErrorInternalZone" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLatLonLength" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLatLonNumeric" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLonRange" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorParkingActionId" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorSignangeZone" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorTimeBlock" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorVrnNotSpecified" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorVrnRange" xml:space="preserve">
+    <value>Hinweis: Das angegebene Kennzeichen darf maximal 20 Zeichen beinhalten.</value>
+  </data>
+  <data name="ValidationFailed" xml:space="preserve">
+    <value>Validierung fehlgeschlagen</value>
+  </data>
+  <data name="VehicleDocumentNotFound" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="VehicleDocumentsNotFound" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="VehicleIdentificationAlreadyExists" xml:space="preserve">
+    <value>Hinweis: Sie haben bereits eine {SupplierName} Zugangskarte für das registrierte Fahrzeug</value>
+  </data>
+  <data name="VehicleNotFound" xml:space="preserve">
+    <value>Kennzeichen ist erforderlich</value>
+  </data>
+  <data name="VehicleNotFoundForUser" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="VrnIsOnBlackListError" xml:space="preserve">
+    <value>Hinweis: Das angegebene Kennzeichen ist vorübergehend für {SupplierName} Services gesperrt. Für weitere Informationen  wenden Sie sich bitte an den Kundenservice: {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="VrnIsRequired" xml:space="preserve">
+    <value>Kennzeichen ist erforderlich</value>
+  </data>
+  <data name="VrnLengthIncorrectMessage" xml:space="preserve">
+    <value>Hinweis: Geben Sie ein Kennzeichen mit mindestens 3 und höchstens 20 Zeichen an.</value>
+  </data>
+  <data name="ZoneNotFound" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="ZoneRequired" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingCompanyName" xml:space="preserve">
+    <value>Firmenname ist erforderlich</value>
+  </data>
+  <data name="MissingCompanyRegistrationNumber" xml:space="preserve">
+    <value>Registernummer ist erforderlich</value>
+  </data>
+  <data name="NoBillingMethodFound" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>Ihr Konto wurde entfernt. Bitte registrieren Sie ein neues Konto.</value>
+  </data>
+  <data name="UserNotAllowed" xml:space="preserve">
+    <value>Benutzer nicht erlaubt</value>
+  </data>
+  <data name="UserNotEnabled" xml:space="preserve">
+    <value>Ihr Konto wurde deaktiviert. Bitte kontaktieren Sie unseren Helpdesk {HelpdeskNumber}.</value>
+  </data>
+  <data name="ValidationErrorLatRange" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen (Fehlercode: {ErrorCode}). Bitte versuchen Sie es erneut oder kontaktieren Sie unseren Kundenservice {HelpdeskEmail}.</value>
+  </data>
+  <data name="VehicleCannotBeUnlinked" xml:space="preserve">
+    <value>Dieses Fahrzeug kann Benutzer nicht entfernt werden</value>
+  </data>
+  <data name="GeneralErrorTitleNoInfo" xml:space="preserve">
+    <value>Huch, da ist etwas schief gelaufen. Bitte versuchen Sie es erneut oder wenden Sie sich an unseren Kundendienst.</value>
+  </data>
+
+</root>
