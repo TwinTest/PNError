@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountSettingsNoChangeRights" xml:space="preserve">
+    <value>Note: Only the account owner can change the settings.</value>
+  </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>Note: This account has been temporarily locked. Please contact the helpdesk at {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedActivationRequired" xml:space="preserve">
+    <value>Unfortunately you have yet to activate your account. Please activate your account first.</value>
+  </data>
+  <data name="AccountSuspendedCreditcardExpired" xml:space="preserve">
+    <value>Note:  This account has been temporarily locked due to an expired credit card. Please add a valid payment method.</value>
+  </data>
+  <data name="AccountSuspendedGeneral" xml:space="preserve">
+    <value>Note: This account has been temporarily locked. Please contact the helpdesk at {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedPaymentFailed" xml:space="preserve">
+    <value>Note: This account has been temporarily locked. Please contact the helpdesk at {HelpdeskNumberClean}.</value>
+  </data>
+  <data name="AccountSuspendedPaymentMethodNotFound" xml:space="preserve">
+    <value>Note: This account has been temporarily locked. No valid payment method was found. Please add a valid payment method.</value>
+  </data>
+  <data name="ActivateTransactionFailed" xml:space="preserve">
+    <value>System error : Activate transaction failed.</value>
+  </data>
+  <data name="AddressValidation" xml:space="preserve">
+    <value>Address could not be validated, fill address manually</value>
+  </data>
+  <data name="BankruptMessage" xml:space="preserve">
+    <value>Unfortunately, the registration can not be continued at this moment as a result of the selected company&apos;s current financial status. If this information is incorrect, please contact our helpdesk for further information</value>
+  </data>
+  <data name="BoatNameOrNumberRequired" xml:space="preserve">
+    <value>Please enter the registration number or the name of the boat.</value>
+  </data>
+  <data name="BrowserVersionError" xml:space="preserve">
+    <value>Note: We do not support the browser version you are using. Please update your browser to  a later version.</value>
+  </data>
+  <data name="CCPaymentNotSupported" xml:space="preserve">
+    <value>Credit card payment is not supported by supplier</value>
+  </data>
+  <data name="ClientTypeValidation" xml:space="preserve">
+    <value>Are you using Parkmobile privately or for your business?</value>
+  </data>
+  <data name="CompanyRegistrationNumberLengthIncorrectMessage" xml:space="preserve">
+    <value>Minimum length for Company registration number should be at least 12 </value>
+  </data>
+  <data name="CountryNotSupported" xml:space="preserve">
+    <value>Requested country is not supported for this supplier</value>
+  </data>
+  <data name="CreateUserInfoUserNotAllowed" xml:space="preserve">
+    <value>Note: Subusers can only be added by the owner of this account.</value>
+  </data>
+  <data name="CreateUserNoClientGiven" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="CreateUserNoDisplayNameGiven" xml:space="preserve">
+    <value>Note: Specify a display name for the additional subuser.</value>
+  </data>
+  <data name="CreateUserNoEmailGiven" xml:space="preserve">
+    <value>Note: Specify the email address for the additional subuser.</value>
+  </data>
+  <data name="CreateUserNoMobilePhoneGiven" xml:space="preserve">
+    <value>Note: Specify the mobile number for the additional subuser.</value>
+  </data>
+  <data name="CreateUserUserAlreadyExists" xml:space="preserve">
+    <value>Note: You cannot add this subuser since the mobile number or email adress is already used for another account.</value>
+  </data>
+  <data name="CredentialAlreadyMerged" xml:space="preserve">
+    <value>Note: The accounts for user {UserId} have been merged already.</value>
+  </data>
+  <data name="CredentialNotFound" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="CreditCardRegistrationError" xml:space="preserve">
+    <value>Note: No valid payment method.  Please add a valid payment method to use the services.</value>
+  </data>
+  <data name="DeletePrimaryUserError" xml:space="preserve">
+    <value>Primary user cannot be deleted</value>
+  </data>
+  <data name="DeleteUserAuthenticationError" xml:space="preserve">
+    <value>Note: Only the account owner can delete an account.</value>
+  </data>
+  <data name="DeleteUserParkingActionActivatedError" xml:space="preserve">
+    <value>Note: You cannot delete this subuser. The user has  an active parking session.</value>
+  </data>
+  <data name="DeleteVehicleErrorActiveParkingAction" xml:space="preserve">
+    <value>Note: You cannot delete this vehicle. The  vehicle has an active parking session. </value>
+  </data>
+  <data name="DeleteVehicleErrorLastOne" xml:space="preserve">
+    <value>Note: You cannot delete this vehicle since  at least one vehicle has to be registered for the account.</value>
+  </data>
+  <data name="DeleteVehicleErrorNoDefault" xml:space="preserve">
+    <value>You cannot delete this vehicle, please add a new primary vehicle first.</value>
+  </data>
+  <data name="DiscountCodeIncorrect" xml:space="preserve">
+    <value>Note: The discount code you provided is not valid.</value>
+  </data>
+  <data name="DuplicateMobile" xml:space="preserve">
+    <value>Note: You cannot register with this mobile number since it is already in use for another account.</value>
+  </data>
+  <data name="EniIsOnBlackListError" xml:space="preserve">
+    <value>Entered ENI is not allowed!</value>
+  </data>
+  <data name="EniLengthIncorrectMessage" xml:space="preserve">
+    <value>Required length is 7 or 8 characters</value>
+  </data>
+  <data name="FirstNameLengthIncorrectMessage" xml:space="preserve">
+    <value>Note: The first name has to contain at least 2 characters.</value>
+  </data>
+  <data name="GarageOfflineFriendlyMessage" xml:space="preserve">
+    <value>Sorry, an error has occurred. It&apos;s currently not possible to park at this Carpark. For help call 0900 666 5 666</value>
+  </data>
+  <data name="GeneralErrorTitle" xml:space="preserve">
+    <value>Sorry, something went wrong. Please try again or contact our customer service.</value>
+  </data>
+  <data name="GetGarageInfoFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingInvoiceHistoryFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingInvoicePDFFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingParkingActionHistoryFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingParkingActionSessionsFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GettingTransactionHistoryFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="GetUserInfoUserNotAllowed" xml:space="preserve">
+    <value>Note: You have no access to this user profile.</value>
+  </data>
+  <data name="IbanIsOnBlackListError" xml:space="preserve">
+    <value>Note: The IBAN number you entered is not allowed.</value>
+  </data>
+  <data name="IdentificationNotSupported" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectDirectDebit" xml:space="preserve">
+    <value>Incorrect Direct Debit values requested</value>
+  </data>
+  <data name="IncorrectMembershipType" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectSupplier" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectTransactionId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrectTransactionNote" xml:space="preserve">
+    <value>Note: Please enter a valid note for this parking session.</value>
+  </data>
+  <data name="IncorrectTransactionType" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="IncorrecUserType" xml:space="preserve">
+    <value>Incorrect user type is requested</value>
+  </data>
+  <data name="InvoiceBelongsToDifferentCustomer" xml:space="preserve">
+    <value>Note: You do not have access to this invoice.</value>
+  </data>
+  <data name="LoginFailedMessage" xml:space="preserve">
+    <value>Note: No account has been found with this login details in our system.</value>
+  </data>
+  <data name="MaxAllowedVrn" xml:space="preserve">
+    <value>Note: You have reached the maximum number of vehicles for your package.</value>
+  </data>
+  <data name="MaxUsersExceeded" xml:space="preserve">
+    <value>Note: You have reached the maximum number of users for your package. Please upgrade your package to add more users to your account.</value>
+  </data>
+  <data name="MembershipSwapMessage" xml:space="preserve">
+    <value>Your service plan could not be changed, please contact the helpdesk</value>
+  </data>
+  <data name="MergeFailed" xml:space="preserve">
+    <value>Error: Due to technical problems we could not merge your accounts. Customer Service will be informed automatically and take care of the issue right away.</value>
+  </data>
+  <data name="MergeInviteFailNoEmail" xml:space="preserve">
+    <value>Note: We could not merge your accounts since there is no valid email adress for one of the accounts.</value>
+  </data>
+  <data name="MissingAddressDetails" xml:space="preserve">
+    <value>Note: The access card cannot be shipped since we cannot find a valid address.</value>
+  </data>
+  <data name="MissingParkingActionId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingStopTime" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingUserId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingVehicleDocumentId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingVehicleId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MobileLengthIncorrectMessage" xml:space="preserve">
+    <value>Note: Insert a mobile phone number with a minimum of 9 and a maximum of 20 characters.</value>
+  </data>
+  <data name="MultipleAddresses" xml:space="preserve">
+    <value>Multiple addresses found, please choose</value>
+  </data>
+  <data name="NoActiveParkingActionForGarage" xml:space="preserve">
+    <value>There is no active parkingaction for garage with externalId {GarageId}</value>
+  </data>
+  <data name="NoIdentificationsFound" xml:space="preserve">
+    <value>Note: No access card available.</value>
+  </data>
+  <data name="NoInvoicesFound" xml:space="preserve">
+    <value>Note: No invoice available.</value>
+  </data>
+  <data name="NoServicePlanFound" xml:space="preserve">
+    <value>No service plan found for given user.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NoSessionsFound" xml:space="preserve">
+    <value>No parking transactions found.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NotModified" xml:space="preserve">
+    <value>Not Modified</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="NoUserWithEmailFound" xml:space="preserve">
+    <value>Note: No user found under the given email address.</value>
+  </data>
+  <data name="NoVehicleFoundForId" xml:space="preserve">
+    <value>No vehicle found for id {0}</value>
+  </data>
+  <data name="OpenGarageDoor" xml:space="preserve">
+    <value>System error : Open garagedoor failed</value>
+  </data>
+  <data name="OrderParkingCardError" xml:space="preserve">
+    <value>An error occured while ordering parking card.</value>
+  </data>
+  <data name="OrderParkingCardFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>The page you requested could not be found</value>
+  </data>
+  <data name="ParkingActionNotFoundForUser" xml:space="preserve">
+    <value>Note: No active parking action found.</value>
+  </data>
+  <data name="PasswordCompareMessage" xml:space="preserve">
+    <value>Note: Passwords do not match.</value>
+  </data>
+  <data name="PasswordLengthMessage" xml:space="preserve">
+    <value>Note: Your password must consist of at least 6 characters.</value>
+  </data>
+  <data name="PaymentDataNotFound" xml:space="preserve">
+    <value>Note: No payment method found.</value>
+  </data>
+  <data name="PaymentDataWrongAccount" xml:space="preserve">
+    <value>Note: Payment details can only be viewed by the owner of this account.</value>
+  </data>
+  <data name="RequiredParametersInvalid" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="RequiredParametersMissing" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="RetrieveParkingCardStatusFailed" xml:space="preserve">
+    <value>System error : Retrieving status of parking card failed</value>
+  </data>
+  <data name="ServicePlanChangeMaxUsersExceeded" xml:space="preserve">
+    <value>Note: You cannot downgrade to another package since you have too many registered users  in your account. The number of users per account is limited for the  package.</value>
+  </data>
+  <data name="ServicePlanChangeMaxVehiclesExceeded" xml:space="preserve">
+    <value>Note: You cannot downgrade to another package since you have too many registered vehicles  in your account. The number of vehicles per account is limited for the  package.</value>
+  </data>
+  <data name="StartParkingCardRequired" xml:space="preserve">
+    <value>Parking card is required for this location.</value>
+  </data>
+  <data name="StartParkingConfirmFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="StartParkingCvcIncorrect" xml:space="preserve">
+    <value>The provided CVC code is incorrect, please try again</value>
+  </data>
+  <data name="StartParkingCvcIncorrectMaxAttempts" xml:space="preserve">
+    <value>The provided CVC code is incorrect, maximum attempts have been reached</value>
+  </data>
+  <data name="StartParkingCvcNotProvided" xml:space="preserve">
+    <value>Required CVC code is is not provided.</value>
+  </data>
+  <data name="StartParkingExtendFailed" xml:space="preserve">
+    <value>System error : Extend transaction failed</value>
+  </data>
+  <data name="StartParkingExtendNotAllowed" xml:space="preserve">
+    <value>Parking action cannot be extended.</value>
+  </data>
+  <data name="StartParkingInsufficientFunds" xml:space="preserve">
+    <value>Insufficient funds in wallet to start parking.</value>
+  </data>
+  <data name="StartParkingMaxDuration" xml:space="preserve">
+    <value>Note: Parking action cannot be extended because you have reached the maximum parking duration of this zone.</value>
+  </data>
+  <data name="StartParkingNoPaidParking" xml:space="preserve">
+    <value>Note: The start time of the parking action must be prior to the set end time.</value>
+  </data>
+  <data name="StartParkingNoReturn" xml:space="preserve">
+    <value>We are unable to start a parking session due to a no returns policy at this location. See signage for details.</value>
+  </data>
+  <data name="StartParkingNotAllowedOnZone" xml:space="preserve">
+    <value>Note: Parking is currently not allowed in this zone.</value>
+  </data>
+  <data name="StartParkingPaymentError" xml:space="preserve">
+    <value>An error occured while trying to process your payment.</value>
+  </data>
+  <data name="StartParkingPriceInformationError" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="StartParkingVrnAlreadyActivated" xml:space="preserve">
+    <value>Note: The parking action cannot be started since there already an active parking session for the registered vehicle. </value>
+  </data>
+  <data name="StartTimeMustBeLessThanEndTime" xml:space="preserve">
+    <value>Note: The start time of the parking action must be prior to the set end time.</value>
+  </data>
+  <data name="StopParkingAlreadyStopped" xml:space="preserve">
+    <value>Note: The parking session has already been ended.</value>
+  </data>
+  <data name="StopParkingFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="StopParkingNotAllowedForZone" xml:space="preserve">
+    <value>Note: Parking session cannot be stopped  earlier.</value>
+  </data>
+  <data name="StopParkingStopTimeNotProvided" xml:space="preserve">
+    <value>Note: Parking session end time was not supplied.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="StopParkingStopTimeOutOfRange" xml:space="preserve">
+    <value>Note: The requested parking time cannot be set as the maximum parking time for this parking session is exceeded. Please select an earlier end time.</value>
+    <comment>DO NOT UPDATE THIS TO ANOTHER VALUE AS IT MIGHT CAUSE ISSUES WITH 3RD PARTY PROVIDERS</comment>
+  </data>
+  <data name="StopParkingUserNotAllowed" xml:space="preserve">
+    <value>Note: You cannot stop other user&apos;s active parking sessions.</value>
+  </data>
+  <data name="TokenRegistrationError" xml:space="preserve">
+    <value>An error occured while processing your payment details, please contact our helpdesk</value>
+  </data>
+  <data name="TooManyUsersFound" xml:space="preserve">
+    <value>Note: More than one account account has been  found for this e-mail address.</value>
+  </data>
+  <data name="TransactionNotFound" xml:space="preserve">
+    <value>Requested transaction not found</value>
+  </data>
+  <data name="UpdateParkingFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="UpdateUserNotAllowed" xml:space="preserve">
+    <value>User not allowed</value>
+  </data>
+  <data name="UpdateUserNotFound" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="UpdateVehicleErrorActiveParkingAction" xml:space="preserve">
+    <value>Note: You cannot modify the details of this vehicle because it is currently used for an active parking session.</value>
+  </data>
+  <data name="UserIdentificationAlreadyExists" xml:space="preserve">
+    <value>Note: You already have a {SupplierName} access card.</value>
+  </data>
+  <data name="UserNameChangeMessage" xml:space="preserve">
+    <value>Note: No account has been found with this user or  mobile phone number in our system.</value>
+  </data>
+  <data name="UsersShouldHaveDifferentClientTypes" xml:space="preserve">
+    <value>Note: You can only merge a private and business accounts.</value>
+  </data>
+  <data name="ValidationEmail" xml:space="preserve">
+    <value>Note: Invalid email address.</value>
+  </data>
+  <data name="ValidationEmailNotUnique" xml:space="preserve">
+    <value>Note: This email address has already been registered for another account.</value>
+  </data>
+  <data name="ValidationErrorInternalZone" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLatLonLength" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLatLonNumeric" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorLonRange" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorParkingActionId" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorSignangeZone" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorTimeBlock" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorVrnNotSpecified" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="ValidationErrorVrnRange" xml:space="preserve">
+    <value>Note: The VRN cannot contain more than 20 characters.</value>
+  </data>
+  <data name="ValidationFailed" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="VehicleDocumentNotFound" xml:space="preserve">
+    <value>Vehicle document not found</value>
+  </data>
+  <data name="VehicleDocumentsNotFound" xml:space="preserve">
+    <value>Vehicle documents not found</value>
+  </data>
+  <data name="VehicleIdentificationAlreadyExists" xml:space="preserve">
+    <value>Note: You already have a {SupplierName} access card for the registered vehicle.</value>
+  </data>
+  <data name="VehicleNotFound" xml:space="preserve">
+    <value>Vehicle not found</value>
+  </data>
+  <data name="VehicleNotFoundForUser" xml:space="preserve">
+    <value>Vehicle not found for the authenticated user.</value>
+  </data>
+  <data name="VrnIsOnBlackListError" xml:space="preserve">
+    <value>Note: The license plate has temporarily been blocked for {SupplierName} services. Please contact our customer service for more information: {HelpdeskNumberClean}</value>
+  </data>
+  <data name="VrnIsRequired" xml:space="preserve">
+    <value>The License plate field is required.</value>
+  </data>
+  <data name="VrnLengthIncorrectMessage" xml:space="preserve">
+    <value>Note: The VRN must contain between 3 and 20 characters.</value>
+  </data>
+  <data name="ZoneNotFound" xml:space="preserve">
+    <value>Zone not found</value>
+  </data>
+  <data name="ZoneRequired" xml:space="preserve">
+    <value>The zone code is missing from the request.</value>
+  </data>
+  <data name="GenericError" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="MissingCompanyName" xml:space="preserve">
+    <value>Company name is required</value>
+  </data>
+  <data name="MissingCompanyRegistrationNumber" xml:space="preserve">
+    <value>Company registration number is required</value>
+  </data>
+  <data name="NoBillingMethodFound" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>Your account has been deleted. Please register a new account to continue using {SupplierName}.</value>
+  </data>
+  <data name="UserNotAllowed" xml:space="preserve">
+    <value>User not allowed</value>
+  </data>
+  <data name="UserNotEnabled" xml:space="preserve">
+    <value>Your account has been disabled. Please contact our helpdesk {HelpdeskNumber}.</value>
+  </data>
+  <data name="ValidationErrorLatRange" xml:space="preserve">
+    <value>Sorry, something went wrong. (Code {ErrorCode}). Please try again or contact our customer service {HelpdeskEmail}.</value>
+  </data>
+  <data name="VehicleCannotBeUnlinked" xml:space="preserve">
+    <value>This vehicle cannot be removed by user</value>
+  </data>
+  <data name="GeneralErrorTitleNoInfo" xml:space="preserve">
+    <value>Sorry, something went wrong. Please try again or contact our customer service.</value>
+  </data>
+
+</root>
